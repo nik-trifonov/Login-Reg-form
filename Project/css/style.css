@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia:wght@100;200;300;400;500;600&display=swap');
 
 *{
-    font-family: 'Sofia', sans-serif;
+    font-family: 'Sofia', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +15,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20x;
-    padding-bottom: 60px;
+    padding: 30x;
+    padding-bottom: 80px;
 }
 
 .container .content{
-    text-align: center;
+    text-align: left;
 }
 .container.content h3{
     font-size: 30px;
@@ -31,7 +31,7 @@
 .container .content h3 span{
     background: rgb(20, 177, 220);
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0 15px;
 
 }
